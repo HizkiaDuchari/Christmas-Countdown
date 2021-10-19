@@ -1,0 +1,70 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* Main style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../Assets/35-355938_christmas-desktop-wallpaper-merry-christmas-wallpaper-4k.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5rem; */
+}
+
+h1{
+    font-size: 5.5rem;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    /* font-weight: normal; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigTxt{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: 600;
+}
+
+.daysContainer, 
+.hoursContainer, 
+.minutesContainer, 
+.secondsContainer{
+    text-align: center;
+}
+
+.daysContainer p, 
+.hoursContainer p, 
+.minutesContainer p, 
+.secondsContainer p{
+    color: white;
+    text-shadow: 0px 0px 7px black;
+}
+
+.daysContainer span, 
+.hoursContainer span, 
+.minutesContainer span, 
+.secondsContainer span{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
